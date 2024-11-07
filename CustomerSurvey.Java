@@ -7,10 +7,10 @@ public class CustomerSurvey {
         // TODO: Declare necessary variables (e.g., to hold rating counts, total number of ratings, sum, etc.)
         // TODO: Declare a flag for detecting if any 5-star rating was entered
 
-        System.out.println("Welcome to Customer Survey! Enter ratings from 1 to 5 (enter -1 to stop):");
-
+        System.out.println("Welcome to Customer Survey! Enter ratings from 1 to 5 (enter -1 to stop): ");
+        int rating = scanner.NextInt();
         // Sentinel-Controlled Loop to collect customer ratings
-        while (true) {
+        while (rating != -1) {
             // TODO: Prompt user to enter a rating
             // TODO: Read the rating input
 
