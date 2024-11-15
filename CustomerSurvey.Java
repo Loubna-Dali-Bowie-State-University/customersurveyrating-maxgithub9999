@@ -8,14 +8,15 @@ public class CustomerSurvey {
         // TODO: Declare a flag for detecting if any 5-star rating was entered
 
         System.out.println("Welcome to Customer Survey! Enter ratings from 1 to 5 (enter -1 to stop): ");
-        int rating = scanner.NextInt();
+        int rating = 0;
         // Sentinel-Controlled Loop to collect customer ratings
         while (rating != -1) {
             // TODO: Prompt user to enter a rating
             // TODO: Read the rating input
-
+            System.out.println("Welcome to Customer Survey! Enter more ratings from 1 to 5 (enter -1 to stop): ");
+            rating = scanner.NextInt();
             // TODO: Check if the sentinel value (-1) was entered, and break if true
-
+            if(rating = -1)
             // TODO: Validate that the rating is between 1 and 5
             // If invalid, display an error message and continue to the next iteration
 
